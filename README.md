@@ -10,7 +10,9 @@ Also keep in mind that if your machine is newer than 2008 then it uses DDR3 RAM 
 -- NOTE: I HAVE NOT TESTED THIS ON ANY OF THE MACHINES LISTED BELOW OTHER THAN THE IMAC8,1 (EARLY 2008)
 -- WHEN IT COMES TO UNOFFICIAL PATCHES LIKE THIS, THERE ARE NO GUARRANTEES. USE AT YOUR OWN RISK, BE RESPONSIBLE AND MATURE!
 -- IF THERE'S A QUESTION MARK THEN IT MEANS THAT IT HAS NOT BEEN FULLY CONFIRMED!
-------------------------------| COMPATIBILITY LIST|----------------------------------
+-----------------------------------------------------------------------------------
+Compatibility List
+
 Fully Compatible Machines:
 iMac8,1 (Every Model)
 ? MacBookPro4,1 (Every Model)
@@ -45,15 +47,15 @@ Intel GMA X3100
 GeForce 9600M GT
 DDR3 RAM
 ------------------------------------------------------------------
---------------------|Notes|---------------------------------------
+Notes
 The81Project uses a couple of third party patches and a couple of patches not normally included with Mac OS X. This may not include all versions of The81Project. They are listed below.
 * Clover EFI Bootloader
 * TigerALC
 * ICEBERG
 * 10.4.11 COMBO UPDATE (PKG VERSION)
 -----------------------------------------------------------------
-------------------------|Credits|---------------------------
+Credits
 * spdgmr - Creator of The81Project and the TigerALC patch
-* CloverHackyColor - Created Clover EFI, making this project possible
-Thanks to Martin Nobel for massive help with this project!
+* CloverHackyColor - Created Clover EFI, making this project possible and thanks to Martin Nobel for massive help with this project!
+
 ------------------------------------------------------------------
