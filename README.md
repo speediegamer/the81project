@@ -14,48 +14,30 @@ Also keep in mind that if your machine is newer than 2008 then it uses DDR3 RAM 
 Compatibility List
 
 Fully Compatible Machines:
-iMac8,1 (Every Model)
-? MacBookPro4,1 (Every Model)
-MacPro3,1
-Xserve2,1
-Any Mac from 2006 - 2007
+iMac8,1 (Every Model), ? MacBookPro4,1 (Every Model), MacPro3,1, Xserve2,1, Any Mac from 2006 - 2007
 
 Semi Compatible Machines:
-MacBook4,1 (No GPU Acceleration)
-MacBook5,1 (No GPU Acceleration)
-MacBookAir1,1 (No GPU Acceleration)
+MacBook4,1 (No GPU Acceleration), MacBook5,1 (No GPU Acceleration), MacBookAir1,1 (No GPU Acceleration)
 
 Fully incompatible machines:
 MacBookPro5,1 (Will not boot because of DDR3 RAM and incompatible graphics)
 
 Compatible Hardware:
-GeForce 8600M GT
-Radeon HD 2600 XT
-ATI Radeon X1300 Pro
-ATI Radeon X1300
-Realtek ALC889A (With TigerALC Patch)
-Realtek ALC885 (With TigerALC Patch)
-Realtek ALC883 (With TigerALC Patch)
-Realtek ALC855 (With TigerALC Patch)
-Realtek ALC889 (With TigerALC Patch)
-Any Intel Core 2 processor from 2008 or older
-DDR2 RAM
+GeForce 8600M GT, Radeon HD 2600 XT, ATI Radeon X1300 Pro, ATI Radeon X1300, Realtek ALC889A (With TigerALC Patch), Realtek ALC885 (With TigerALC Patch), 
+Realtek ALC883 (With TigerALC Patch), Realtek ALC855 (With TigerALC Patch), Realtek ALC889 (With TigerALC Patch), Any Intel Core 2 processor from 2008 or older, DDR2 RAM, Airport Extreme, AirPort
+NOTE: THIS IS NOT A LIST OF ALL COMPATIBLE HARDWARE!
 
 Incompatible Hardware:
-GeForce 9400M
-Intel GMA X3100
-GeForce 9600M GT
-DDR3 RAM
+GeForce 9400M, Intel GMA X3100, GeForce 9600M GT, DDR3 RAM
 ------------------------------------------------------------------
 Notes
 The81Project uses a couple of third party patches and a couple of patches not normally included with Mac OS X. This may not include all versions of The81Project. They are listed below.
-* Clover EFI Bootloader
-* TigerALC
-* ICEBERG
-* 10.4.11 COMBO UPDATE (PKG VERSION)
------------------------------------------------------------------
+* Clover EFI Bootloader, TigerALC, ICEBERG, 10.4.11 COMBO UPDATE (PKG VERSION)
+------------------------------------------------------------------
 Credits
 * spdgmr - Creator of The81Project and the TigerALC patch
-* CloverHackyColor - Created Clover EFI, making this project possible and thanks to Martin Nobel for massive help with this project!
+* CloverHackyColor - Created Clover EFI, making this project possible
+* Massive thanks to Martin Nobel for massive help with this project!
 
 ------------------------------------------------------------------
+PLEASE DO NOT REDISTRIBUTE ANY FILES ON THIS WEBSITE WITHOUT PERMISSION!
