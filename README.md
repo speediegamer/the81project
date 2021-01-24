@@ -1,5 +1,8 @@
 # The81Project
 
+Documentation: https://github.com/speediegamer/the81project/blob/main/Documentation.pdf
+Written Guide: https://github.com/speediegamer/the81project/blob/main/Installation%20Guide.pdf
+
 The81Project is a dumb name for running Mac OS X 10.4 Tiger on too new hardware.
 It is a custom image of 10.4.10 with a ton of patches to make it boot on as much hardware as possible.
 Sadly, hardware support is not great, and there is a huge chance that you will have to live without GPU acceleration or some other feature.
