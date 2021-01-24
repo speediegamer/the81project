@@ -6,6 +6,8 @@ Sadly, hardware support is not great, and there is a huge chance that you will h
 Below is the tested hardware so far. Feel free to test on any hardware listed below but support is not guarranteed.
 Also keep in mind that if your machine is newer than 2008 then it uses DDR3 RAM and as such, it will NOT boot.
 
+# Recommended version: https://github.com/speediegamer/the81project/releases/tag/2.0-beta
+
 
 -- NOTE: I HAVE NOT TESTED THIS ON ANY OF THE MACHINES LISTED BELOW OTHER THAN THE IMAC8,1 (EARLY 2008)
 -- WHEN IT COMES TO UNOFFICIAL PATCHES LIKE THIS, THERE ARE NO GUARRANTEES. USE AT YOUR OWN RISK, BE RESPONSIBLE AND MATURE!
