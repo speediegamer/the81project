@@ -10,12 +10,10 @@ Sadly, hardware support is not great, and there is a huge chance that you will h
 Below is the tested hardware so far. Feel free to test on any hardware listed below but support is not guarranteed.
 Also keep in mind that if your machine is newer than 2008 then it uses DDR3 RAM and as such, it will NOT boot.
 
-# Recommended version: https://github.com/speediegamer/the81project/releases/tag/2.0-beta
+# Recommended version: https://github.com/speediegamer/the81project/releases/latest
 
-
--- NOTE: I HAVE NOT TESTED THIS ON ANY OF THE MACHINES LISTED BELOW OTHER THAN THE IMAC8,1 (EARLY 2008)
--- WHEN IT COMES TO UNOFFICIAL PATCHES LIKE THIS, THERE ARE NO GUARRANTEES. USE AT YOUR OWN RISK, BE RESPONSIBLE AND MATURE!
--- IF THERE'S A QUESTION MARK THEN IT MEANS THAT IT HAS NOT BEEN FULLY CONFIRMED!
+# Tinker responsibly
+By using this tool, both patcher, patches and/or images, you are 100% using them at your own risk. In case your machine fails to boot, your important data is lost and you get fired from work, you have no one to blame but yourself. Please.. whatever you do. Tinker responsibly!
 -----------------------------------------------------------------------------------
 Compatibility List
 
@@ -30,20 +28,14 @@ MacBookPro5,1 (Will not boot because of DDR3 RAM and incompatible graphics)
 
 Compatible Hardware:
 GeForce 8600M GT, Radeon HD 2600 XT, ATI Radeon X1300 Pro, ATI Radeon X1300, Realtek ALC889A (With TigerALC Patch), Realtek ALC885 (With TigerALC Patch), 
-Realtek ALC883 (With TigerALC Patch), Realtek ALC855 (With TigerALC Patch), Realtek ALC889 (With TigerALC Patch), Any Intel Core 2 processor from 2008 or older, DDR2 RAM, Airport Extreme, AirPort
+Realtek ALC883 (With TigerALC Patch), Realtek ALC855 (With TigerALC Patch), Realtek ALC889 (With TigerALC Patch), Airport Extreme
 NOTE: THIS IS NOT A LIST OF ALL COMPATIBLE HARDWARE!
 
 Incompatible Hardware:
-GeForce 9400M, Intel GMA X3100, GeForce 9600M GT, DDR3 RAM
-------------------------------------------------------------------
-Notes
-The81Project uses a couple of third party patches and a couple of patches not normally included with Mac OS X. This may not include all versions of The81Project. They are listed below.
-* Clover EFI Bootloader, TigerALC, ICEBERG, 10.4.11 COMBO UPDATE (PKG VERSION)
+GeForce 9400M, Intel GMA X3100, GeForce 9600M / GT, DDR3 RAM
 ------------------------------------------------------------------
 Credits
 * spdgmr - Creator of The81Project and the TigerALC patch
 * CloverHackyColor - Created Clover EFI, making this project possible
-* Massive thanks to Martin Nobel for massive help with this project!
-
 ------------------------------------------------------------------
 PLEASE DO NOT REDISTRIBUTE ANY FILES ON THIS WEBSITE WITHOUT PERMISSION!
