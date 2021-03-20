@@ -10,7 +10,7 @@ Sadly, hardware support is not great, and there is a huge chance that you will h
 Below is the tested hardware so far. Feel free to test on any hardware listed below but support is not guarranteed.
 Also keep in mind that if your machine is newer than 2008 then it uses DDR3 RAM and as such, it will NOT boot.
 
-# Recommended version: https://github.com/speediegamer/the81project/releases/latest
+Recommended version: https://github.com/speediegamer/the81project/releases/latest
 
 # Tinker responsibly
 By using this tool, both patcher, patches and/or images, you are 100% using them at your own risk. In case your machine fails to boot, your important data is lost and you get fired from work, you have no one to blame but yourself. Please.. whatever you do. Tinker responsibly!
@@ -18,13 +18,13 @@ By using this tool, both patcher, patches and/or images, you are 100% using them
 Compatibility List
 
 Fully Compatible Machines:
-iMac8,1 (Every Model), ? MacBookPro4,1 (Every Model), MacPro3,1, Xserve2,1, Any Mac from 2006 - 2007
+iMac8,1 (Every Model), ? MacBookPro4,1 (Every Model), Xserve2,1, Any Mac from 2006 - 2007
 
 Semi Compatible Machines:
 MacBook4,1 (No GPU Acceleration), MacBook5,1 (No GPU Acceleration), MacBookAir1,1 (No GPU Acceleration)
 
 Fully incompatible machines:
-MacBookPro5,1 (Will not boot because of DDR3 RAM and incompatible graphics)
+MacBookPro5,1 (Will not boot because of DDR3 RAM and incompatible graphics), MacPro3,1
 
 Compatible Hardware:
 GeForce 8600M GT, Radeon HD 2600 XT, ATI Radeon X1300 Pro, ATI Radeon X1300, Realtek ALC889A (With TigerALC Patch), Realtek ALC885 (With TigerALC Patch), 
