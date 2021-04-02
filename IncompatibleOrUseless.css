@@ -1,0 +1,38 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3rem;
+  margin: 103px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 20px 45px 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 20px 45px 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 69px auto 60px;
+  padding: 10px 122px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
