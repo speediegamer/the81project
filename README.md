@@ -1,41 +1,74 @@
 # The81Project
 
-Documentation: https://github.com/speediegamer/the81project/blob/main/Documentation.pdf                           
+* ![T81PLogo](https://user-images.githubusercontent.com/71722170/114026148-33f21c80-9876-11eb-9b9e-d1ed72fcb8bb.png)
+### Running Mac OS X 10.4 Tiger on Early 2008 Leopard Macs
 
-Written Guide: https://github.com/speediegamer/the81project/blob/main/Installation%20Guide.pdf
+##### Documentation: https://github.com/speediegamer/the81project/blob/main/Documentation.pdf                           
+##### Written Guide: https://github.com/speediegamer/the81project/blob/main/Installation%20Guide.pdf
+##### Compatibility List for version 5.0 https://github.com/speediegamer/the81project/blob/main/Compatibility-List-T81P5.0-482021.pdf
 
-The81Project is a dumb name for running Mac OS X 10.4 Tiger on too new hardware.
-It is a custom image of 10.4.10 with a ton of patches to make it boot on as much hardware as possible.
-Sadly, hardware support is not great, and there is a huge chance that you will have to live without GPU acceleration or some other feature.
-Below is the tested hardware so far. Feel free to test on any hardware listed below but support is not guarranteed.
-Also keep in mind that if your machine is newer than 2008 then it uses DDR3 RAM and as such, it will NOT boot.
+Recommended version: https://speediegamer.github.io/the81project
+Any other version is not supported.
 
-Recommended version: https://github.com/speediegamer/the81project/releases/latest
+The81Project or 81Project (because yes, people call it that) is an unofficial image of Mac OS X 10.4.10 modified to boot on Early 2008 Macs.
+
+* Custom Bootloader with SMBIOS patches (currently Clover, switching to OC asap)
+* Many different patched drivers to get more things functional
+* Vanilla experience
+* No bootloader needed after installation
+* One disk image, works on both supported and unsupported Macs
+* Package included which allows you to choose what will be installed
+##### TenFourFox for Intel, Java Update, Safari Update, 10.4.11 Update and more.
+
+## Check if yours is compatible
+On any version of Mac OS X, installed or recovery, open the terminal and run
+  ```sh
+  sysctl hw.model
+  ```
 
 # Tinker responsibly
 By using this tool, both patcher, patches and/or images, you are 100% using them at your own risk. In case your machine fails to boot, your important data is lost and you get fired from work, you have no one to blame but yourself. Please.. whatever you do. Tinker responsibly!
------------------------------------------------------------------------------------
-Compatibility List
 
-Fully Compatible Machines:
-iMac8,1 (Every Model), ? MacBookPro4,1 (Every Model), Xserve2,1, Any Mac from 2006 - 2007
+## Creating the USB installer
 
-Semi Compatible Machines:
-MacBook4,1 (No GPU Acceleration), MacBook5,1 (No GPU Acceleration), MacBookAir1,1 (No GPU Acceleration)
+Simply grab a simple 8GB or larger USB stick, go to https://speediegamer.github.io/the81project in any browser, select your Mac, download the disk image and
+restore the disk image using Disk Utility (Built into Mac OS X), or balenaEtcher (macOS, Linux, Windows)
+Download it from here: https://github.com/balena-io/etcher
 
-Fully incompatible machines:
-MacBookPro5,1 (Will not boot because of DDR3 RAM and incompatible graphics), MacPro3,1
+## Booting
 
-Compatible Hardware:
-GeForce 8600M GT, Radeon HD 2600 XT, ATI Radeon X1300 Pro, ATI Radeon X1300, Realtek ALC889A (With TigerALC Patch), Realtek ALC885 (With TigerALC Patch), 
-Realtek ALC883 (With TigerALC Patch), Realtek ALC855 (With TigerALC Patch), Realtek ALC889 (With TigerALC Patch), Airport Extreme
-NOTE: THIS IS NOT A LIST OF ALL COMPATIBLE HARDWARE!
+Enter the boot menu on your Early 2008 Mac (By powering on the computer and holding ⌥ until you see a while screen)
+Select EFI Boot and you should see a black screen where you can choose a volume. Select The81Project for X. Once you reach the installer, install Mac OS X like you normally would.
 
-Incompatible Hardware:
-GeForce 9400M, Intel GMA X3100, GeForce 9600M / GT, DDR3 RAM
-------------------------------------------------------------------
-Credits
-* spdgmr - Creator of The81Project and the TigerALC patch
-* CloverHackyColor - Created Clover EFI, making this project possible
-------------------------------------------------------------------
-PLEASE DO NOT REDISTRIBUTE ANY FILES ON THIS WEBSITE WITHOUT PERMISSION!
+## Fixing issues
+
+A lot of issues cannot be fixed. If your Mac has Intel GMA X3100 graphics for example, it will not get any GPU acceleration.
+Take a look at the Compatibility List and before you report an issue, make sure it's not already listed.
+Most Macs will not have perfect compatibility.. yet..
+If it isn't listed as an issue or your model isn't available in the list, navigate to your USB installer and launch The81Toolkit.mpkg. Select the patches you need, if they are available.
+Install it and reboot. If your issue isn't listed in the Compatibility list and The81Toolkit didn't fix it, post an issue on GitHub or @ me on Twitter.
+
+## Troubleshooting
+If you can't boot, try booting the Mac OS X volume directly. It should be named Mac OS Install Disk 1
+Otherwise, create an issue or @ me on Twitter.
+
+## Please.
+
+I need as much information as possible to make the compatibility list complete and to know what works and what doesn't. If you get a successful install, please tell me about it, your Mac, specs, what works and what doesn't, what patches were needed. If you can't boot or things don't work properly, still create an issue or @ me on Twitter. This helps me make sure The81Project is compatible with as many Macs as possible.
+
+## Support Me
+
+If you would like to support my work, consider simply starring my GitHub page, following me on GitHub/Twitter or simply reporting issues or sharing the project with others. Doing so will help this project out significantly
+
+## Credit
+
+    spdgmr - Creator of The81Project and the TigerALC patch
+    CloverHackyColor - Created Clover EFI, making this project possible
+
+##### PLEASE DO NOT DISTRIBUTE ANY FILES ON THIS PAGE DIRECTLY WITHOUT PERMISSION!
+##### DOING SO WOULD BE DISRESPECTFUL CONSIDERING THE WORK I PUT IN!
+    
+
+
+
+
