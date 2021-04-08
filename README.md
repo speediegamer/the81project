@@ -1,6 +1,6 @@
 # The81Project
 
-* ![T81PLogo](https://user-images.githubusercontent.com/71722170/114026148-33f21c80-9876-11eb-9b9e-d1ed72fcb8bb.png)
+![T81PLogo](https://user-images.githubusercontent.com/71722170/114026148-33f21c80-9876-11eb-9b9e-d1ed72fcb8bb.png)
 ### Running Mac OS X 10.4 Tiger on Early 2008 Leopard Macs
 
 ##### Documentation: https://github.com/speediegamer/the81project/blob/main/Documentation.pdf                           
