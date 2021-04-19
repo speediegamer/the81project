@@ -12,6 +12,9 @@ Any other version is not supported.
 
 The81Project or 81Project (because yes, people call it that) is an unofficial image of Mac OS X 10.4.10 modified to boot on Early 2008 Macs.
 
+(Note: The81Project will soon be replaced by Project 081. It's the exact same except it's much more stable, faster, has better drivers, closer to vanilla and just generally much cleaner than The81Project. For now though, keep on using this.)
+Check it out at https://github.com/speediegamer/project-081
+
 * Custom Bootloader with SMBIOS patches (currently Clover, switching to OC asap)
 * Many different patched drivers to get more things functional
 * Vanilla experience
@@ -19,6 +22,8 @@ The81Project or 81Project (because yes, people call it that) is an unofficial im
 * One disk image, works on both supported and unsupported Macs
 * Package included which allows you to choose what will be installed
 ##### TenFourFox for Intel, Java Update, Safari Update, 10.4.11 Update and more.
+MASSIVE ISSUE: Due to a modification to SystemVersion.plist, either modify it before installing or after. Change "The81Project" to "10.4.10"
+Will be fixed with Project 081.
 
 ## Check if yours is compatible
 On any version of Mac OS X, installed or recovery, open the terminal and run
