@@ -12,8 +12,8 @@ Any other version is not supported.
 
 The81Project or 81Project (because yes, people call it that) is an unofficial image of Mac OS X 10.4.10 modified to boot on Early 2008 Macs.
 
-(Note: The81Project will soon be replaced by Project 081. It's the exact same except it's much more stable, faster, has better drivers, closer to vanilla and just generally much cleaner than The81Project. For now though, keep on using this.)
-Check it out at https://github.com/speediegamer/project-081
+(Note: has been replaced by Project 081. It's the exact same except it's much more stable, faster, has better drivers, closer to vanilla and just generally much cleaner than The81Project. Only ever use The81Project if Project 081 for some reason won't boot on your machine.)
+Check it out at https://p081.github.io
 
 * Custom Bootloader with SMBIOS patches (currently Clover, switching to OC asap)
 * Many different patched drivers to get more things functional
@@ -67,7 +67,7 @@ If you would like to support my work, consider simply starring my GitHub page, f
 
 ## Credit
 
-    spdgmr - Creator of The81Project and the TigerALC patch
+    speedie - Creator of The81Project and the TigerALC patch
     CloverHackyColor - Created Clover EFI, making this project possible
 
 ##### PLEASE DO NOT DISTRIBUTE ANY FILES ON THIS PAGE DIRECTLY WITHOUT PERMISSION!
