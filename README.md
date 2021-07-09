@@ -3,17 +3,16 @@
 ![T81PLogo](https://user-images.githubusercontent.com/71722170/114026148-33f21c80-9876-11eb-9b9e-d1ed72fcb8bb.png)
 ### Running Mac OS X 10.4 Tiger on Early 2008 Leopard Macs
 
+#### (Note: has been replaced by Project 081. It's the exact same except it's much more stable, faster, has better drivers, closer to vanilla and just generally much cleaner than The81Project. Only ever use The81Project if Project 081 for some reason won't boot on your machine.)
+Check it out at https://p081.github.io
+
 ##### Documentation: https://github.com/speediegamer/the81project/blob/main/Documentation.pdf                           
 ##### Written Guide: https://github.com/speediegamer/the81project/blob/main/Installation%20Guide.pdf
 ##### Compatibility List for version 5.0 https://github.com/speediegamer/the81project/blob/main/Compatibility-List-T81P5.0-482021.pdf
-
 Recommended version: https://speediegamer.github.io/the81project
 Any other version is not supported.
 
 The81Project or 81Project (because yes, people call it that) is an unofficial image of Mac OS X 10.4.10 modified to boot on Early 2008 Macs.
-
-(Note: has been replaced by Project 081. It's the exact same except it's much more stable, faster, has better drivers, closer to vanilla and just generally much cleaner than The81Project. Only ever use The81Project if Project 081 for some reason won't boot on your machine.)
-Check it out at https://p081.github.io
 
 * Custom Bootloader with SMBIOS patches (currently Clover, switching to OC asap)
 * Many different patched drivers to get more things functional
